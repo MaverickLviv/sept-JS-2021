@@ -134,12 +134,12 @@
 // =================================================================
 // - Функція приймає масив та робить з нього новий масив в зворотньому порядку.
 // [1,2,3] -> [3, 2, 1].
-
+//
 let array1 = [1,2,3];
-let reverseArray =[];
 
 let reverse = (array) => {
-    for (let i=array.length-1; 1 >=0; i--){
+    let reverseArray =[];
+    for (let i=array.length-1; i >=0; i--){
         const arrayElement =array[i];
         reverseArray.push(arrayElement);
     }

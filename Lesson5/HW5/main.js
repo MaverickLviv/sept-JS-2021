@@ -111,16 +111,17 @@
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ.
 // Для кожного об'єкту окремий блок.
 
-let objArray = [{id:1, name:'Pavlo', age:39}];
+// let objArray = [{id:1, name:'Pavlo', age:39}];
+//
+// let finalArray = (array)=> {
+//     for (let element of array) {
+//
+//         document.write(`<div><ul><h4>
+//                       <li><div>${element.id}</div></li>
+//                       <li><div>${element.name}</div></li>
+//                       <li><div>${element.age}</div></li>
+//                       </h4></ul></div>`);
+//     }
+// }
+//     finalArray(objArray);
 
-let finalArray = (array)=> {
-    for (let element of array) {
-
-        document.write(`<div><ul><h4>
-                      <li><div>${element.id}</div></li>
-                      <li><div>${element.name}</div></li>
-                      <li><div>${element.age}</div></li>
-                      </h4></ul></div>`);
-    }
-}
-    finalArray(objArray);
