@@ -8,7 +8,7 @@
     <title>HW12</title>
 
 <style>
-    body,
+    body
 
     .wrap {
         background: aqua;
@@ -43,9 +43,9 @@
         .then(response =>
             response.json())
         .then(postsArray => {
-            for (const postsArrayElement of postsArray) {
+            for (const post of postsArray) {
                 let div = document.createElement('div');
-                div.innerText = `${postsArrayElement.id} ${postsArrayElement.title} ${postsArrayElement.body}`
+                div.innerText = `${post.id} ${post.title} ${post.body}`
                 document.body.appendChild(div);
 
             }
